@@ -52,7 +52,7 @@ function App() {
       }
     }
     return (
-      <div style={{ display: "flex", flexDirection: "row" }}>{output}</div>
+      <div className="App-logo" style={{ display: "flex", flexDirection: "row", scale: "2" }}>{output}</div>
     );
   };
 
@@ -63,7 +63,7 @@ function App() {
       output.push(row("black"));
     }
     return (
-      <div style={{ display: "flex", flexDirection: "column" }}>{output}</div>
+      <div className="App-logo" style={{ display: "flex", flexDirection: "column" , scale: "2"}}>{output}</div>
     );
   };
   return (
